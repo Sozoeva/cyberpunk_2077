@@ -12,16 +12,16 @@ export const Header = () => {
           <a className={styles.link} href="">Cyberpunk 2077</a>
         </div>
         <div>
-          <a className={styles.link} href="">Призрачная свовода</a>
+          <a className={styles.link} href="">Phantom Vault</a>
         </div>
         <div>
-          <a className={styles.link} href="">Новости</a>
+          <a className={styles.link} href="">News</a>
         </div>
         <div>
-          <a className={styles.link} href="">Смотреть</a>
+          <a className={styles.link} href="">Watch</a>
         </div>
         <div>
-          <a className={styles.link} href="">Купить</a>
+          <a className={styles.link} href="">Buy now</a>
         </div>
         </div>
 

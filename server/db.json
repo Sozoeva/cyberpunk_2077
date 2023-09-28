@@ -1,0 +1,52 @@
+{
+    "resource": [
+        {
+            "id":1,
+            "img": "https://www.cyberpunk.net/build/images/home8/product-cp77@2x-4a388c1d.jpg"
+           
+
+        },
+        {
+            "id":2,
+            "img": "https://www.cyberpunk.net/build/images/home8/product-phantomliberty-final@2x-21744e1b.jpg"
+
+        },
+        {
+            "id":3,
+            "img": "https://www.cyberpunk.net/build/images/home8/product-edgerunners@2x-ef51ea00.jpg"
+
+        },
+        {
+            "id":4,
+            "img": "https://www.cyberpunk.net/build/images/home8/product-gear@2x-d7cc2a2b.jpg"
+
+        }
+    ],
+
+    "news": [
+        {
+            "id":1,
+            "img": "https://static.cdprojektred.com/cms.cdprojektred.com/16x9_middle/396bd0725a9877b41c83b45d87923d369a729cf3-592x334.jpg",
+            "title": "What's coming in 2.0: cyberware"
+
+        },
+        {
+            "id":2,
+            "img": "https://static.cdprojektred.com/cms.cdprojektred.com/16x9_middle/2214f9255cf0d21bda0a3b6afbe20b12d7384a8c-592x334.jpg",
+            "title": "Cyberpunk 2077: phantom liberty -"
+
+        },
+        {
+            "id":3,
+            "img": "https://static.cdprojektred.com/cms.cdprojektred.com/16x9_middle/05c98c558deba857047a5ed6ec5df42253c3a068-592x334.jpg",
+            "title": "Update 2.0"
+
+        },
+        {
+            "id":4,
+            "img": "https://static.cdprojektred.com/cms.cdprojektred.com/16x9_middle/5141ff0a8f4a66203534f2bb653402cd5be75734-592x334.jpg",
+            "title": "“Disable copyrighted music”"
+
+        }
+    ]
+}

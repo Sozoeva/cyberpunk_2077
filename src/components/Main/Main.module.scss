@@ -7,34 +7,150 @@
     z-index: -1;
   }
 
-  .main_about {
-    padding-top: 40%;
+  //Title
+  .main_title {
+    padding: 35% 0 2% 0;
     text-align: center;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 1.2)
+      ),
+      url("https://www.cyberpunk.net/build/images/dots-bottom-27735777.png");
 
     h2 {
       text-transform: uppercase;
       font-size: 56px;
-      margin-bottom: 2%;
+      margin-bottom: 4%;
       letter-spacing: -2px;
+      // font-weight: 700;
+    }
+
+    .main_btns {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 2%;
+    }
+
+    button {
+      font-size: 22px;
+      padding: 10px 0;
+      width: 25%;
+      margin-bottom: 2%;
+      background-color: transparent;
+      color: hsl(57, 98%, 51%);
+      border: 1px solid #fcee0a;
+      text-transform: uppercase;
+      border-radius: 0 0 20px 0;
+    }
+
+
+  }
+
+      .main_title_line {
+      background-color: rgba(255, 255, 255, 0.5);
+      content: "";
+      padding: 1px;
+      margin: 2% 0 0 0;
+
+
+    }
+
+  //News
+  .main_news {
+    padding: 0 0 10% 2%;
+    background-color: black;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    z-index: 2;
+    gap: 2%;
+    background-image:  url("https://www.cyberpunk.net/build/images/dots-news-3cd72d29.png");
+
+    .main_news_now {
+      background-image:linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 1.2)
+      ),  url("../../assers/images/backGrnd_news.jpeg");
+      content: "";
+      max-width: 100%;
+      background-size: cover;
+      border: 10px solid #00f0ff;
+
+      h2 {
+        font-size: 72px;
+        color: #00f0ff;
+        font-weight: bold;
+padding: 30% 0 0  0;
+      }
+    }
+
+    .main_news_info {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2%;
+
+      img {
+        width: 80%;
+      }
+
+      p {
+        font-size: 22px;
+        font-weight: 700;
+      }
+    }
+
+    .main_news_line {
+      background-color: white;
+      content: "";
+      height: 2px;
+      width: 10%;
+      margin: 5% 0;
+    }
+  }
+ 
+
+  //Description
+  .main_dafk_future {
+    padding: 10% 20%;
+    text-align: center;
+    background-color: #fcee0a;
+
+    h2 {
+      color: black;
+      font-size: 42px;
       font-weight: 700;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: -2px;
+    }
+
+    p {
+      color: black;
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 30px;
     }
   }
 
-  .main_btns {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 2%;
+  //Resouce
+  .main_resouce {
+    background-color: #fcee0a;
+    padding: 0 3%;
   }
 
-  button {
+  .main_resouce_about {
+    width: 100%;
+    padding: 1%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: black;
+    gap: 1%;
+  }
 
-    font-size: 22px;
-    padding: 10px 0;
-    width: 25%;
-    background-color: transparent;
-    color: #fcee0a;
-    border: 2px solid #fcee0a;
-    text-transform: uppercase;
+  img {
+    width: 100%;
   }
 }
