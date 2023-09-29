@@ -23,9 +23,8 @@ export const Buy = () => {
 
   return (
     <div className={styles.buy}>
-              <h2>Buy products now</h2>
+      <h2>Buy products now</h2>
       <div className={styles.products}>
-
         {products.map((product) => {
           return (
             <div className={styles.product}>
@@ -39,7 +38,6 @@ export const Buy = () => {
         })}
       </div>
       <div className={styles.buy_line}></div>
-
     </div>
   );
 };

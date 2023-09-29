@@ -1,0 +1,54 @@
+.cyberpunk {
+  img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .cyberpunk_story {
+    margin-top: -6px;
+    padding: 3% 5%;
+    background-color: black;
+    display: flex;
+    gap: 2%;
+    align-items: center;
+
+  
+    img {
+      border: 10px solid #fcee0a;
+    }
+  
+    h3 {
+      font-size: 44px;
+    }
+  
+    p {
+      font-size: 22px;
+    }
+  }
+  
+  .cyberpunk_rewards{
+    padding: 3% 5%;
+    background-color: #fcee0a;
+    display: flex;
+    gap: 2%;
+    align-items: center;
+
+
+    *{
+        color: black;
+
+    }
+    img {
+        border: 10px solid black;
+      }
+
+      h3 {
+        font-size: 44px;
+      }
+    
+      p {
+        font-size: 22px;
+      }
+  }
+}
+
