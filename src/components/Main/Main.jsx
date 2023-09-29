@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import styles from "./Main.module.scss";
 import video from "../../assers/video/cyberpunk2077.mp4";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 export const Main = () => {
   const [resource, setResource] = useState([]);
@@ -48,22 +49,31 @@ export const Main = () => {
         <section className={styles.main_title}>
           <h2>"Cyberpunk 2077" available now on all platforms</h2>
           <div className={styles.main_btns}>
-            <button>Learn more</button>
+          
             <button>
-              <a style={{textDecoration:"none", color:"#fcee0a"}}
+            <Link to='/cyberpunk' className={styles.nav_link}>
+              Learn more
+               </Link>
+              </button>
+           
+            <button>
+
+            <a style={{textDecoration:"none", color:"#fcee0a"}}
                 className="link"
                 href="https://www.youtube.com/watch?v=LembwKDo1Dk"
                 target="_blank"
               >
                 Watch trailer
               </a>
+      
+              
             </button>
           </div>
           <div className={styles.main_title_line}></div>
         </section>
 
 
-        <section className={styles.main_news}>
+        <section id="news" className={styles.main_news}>
           <div className={styles.main_news_now}>
             <h2>Cyberpunk 2077: Phantom liberty - out now!</h2>
           </div>

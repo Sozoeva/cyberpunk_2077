@@ -48,5 +48,44 @@
             "title": "“Disable copyrighted music”"
 
         }
+    ],
+
+    "products": [
+        {
+            "id": 1,
+            "img": "https://i.pinimg.com/1200x/8e/49/04/8e4904ebd5e805db0f4ccaddee513b83.jpg",
+            "price": 29.99,
+            "title": "Cyberpunk City Poster"
+          },
+          {
+            "id": 2,
+            "img": "https://moveekbuddyshop.com/cdn/shop/products/hh_369781ec-cf97-4007-be58-83bd92e58165_1200x.png?v=1601283906",
+            "price": 49.99,
+            "title": "Cyberpunk Logo Hoodie"
+          },
+          {
+            "id": 3,
+            "img": "https://i.pinimg.com/1200x/8e/49/04/8e4904ebd5e805db0f4ccaddee513b83.jpg",
+            "price": 14.99,
+            "title": "Cyberpunk City Poster"
+          },
+          {
+            "id": 4,
+            "img": "https://ae01.alicdn.com/kf/S57277923d8ef43c8b90cdc44c6ff2a53p/Razer-Viper-Ultimate-Cyberpunk-2077-Mouse-Pad-RGB-Pc-Accessories-LED-Gaming-Mousepad-New-Desk-Mat.jpg",
+            "price": 39.99,
+            "title": "Cyberpunk RGB Mousepad"
+          },
+          {
+            "id": 5,
+            "img": "https://www.fragstore.cy/web/image/product.image/1304/image_1024/Cyberpunk%202077%20Logo%20Snap%20Back%20Cap%2C%20Black-Yellow?unique=ad441a9",
+            "price": 19.99,
+            "title": "Cyberpunk Logo Cap"
+          },
+          {
+            "id": 6,
+            "img": "https://ae04.alicdn.com/kf/S90183d5ba52244a296ccfee8e1677be8A.jpg",
+            "price": 9.99,
+            "title": "Cyberpunk RGB Mousepad"
+          }
     ]
 }

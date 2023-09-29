@@ -19,15 +19,15 @@ export const Header = () => {
         <Link to="/phantom" className={styles.nav_link}>
           <a className={styles.link} href="">Phantom Vault</a>
         </Link>
+        {/* <Link to="/Forum" className={styles.nav_link}>
+          <a className={styles.link} href="">Forum</a>
+        </Link> */}
         <div>
-          <a className={styles.link} href="">News</a>
+          <a className={styles.link} href="https://www.netflix.com/kg-ru/title/81054853" target="_blank">Watch</a>
         </div>
-        <div>
-          <a className={styles.link} href="">Watch</a>
-        </div>
-        <div>
+        <Link to="/buy" className={styles.nav_link}>
           <a className={styles.link} href="">Buy now</a>
-        </div>
+        </Link>
         </div>
       </nav>
     </header>
