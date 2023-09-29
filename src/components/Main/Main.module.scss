@@ -39,7 +39,7 @@
       width: 25%;
       margin-bottom: 2%;
       background-color: transparent;
-      color: hsl(57, 98%, 51%);
+      color: #fcee0a;
       border: 1px solid #fcee0a;
       text-transform: uppercase;
       border-radius: 0 0 20px 0;
@@ -52,7 +52,7 @@
       background-color: rgba(255, 255, 255, 0.5);
       content: "";
       padding: 1px;
-      margin: 2% 0 0 0;
+      margin: 2% 2% 0 2%;
 
 
     }
@@ -152,5 +152,12 @@ padding: 30% 0 0  0;
 
   img {
     width: 100%;
+  }
+
+  .main_rosource_line {
+    background-color: rgba(0, 0, 0, 0.3);
+    content: "";
+    padding: 1px;
+    margin: 5% 0 0 0;
   }
 }

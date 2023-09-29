@@ -1,0 +1,74 @@
+.footer {
+  padding: 5% 10% 0 10%;
+  background-color: #fcee0a;
+
+  .footer_content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: black;
+
+    * {
+      color: black;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .footer_terms {
+      padding: 0 10%;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .footer_social_media {
+      padding: 0 20%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+      a {
+        width: 4%;
+      }
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .footer_cookies {
+      padding: 0 20%;
+      text-align: center;
+
+      p {
+        margin-bottom: 2%;
+      }
+
+      span {
+        font-size: 12px;
+      }
+    }
+
+    .footer_games {
+      background-color: black;
+      padding: 20px;
+      border-radius: 20px  20px 0 0;
+
+      .footer_games_other {
+        display: flex;
+        justify-content: space-around;
+
+        div {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 50px;
+        }
+
+        a {
+          color: white;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

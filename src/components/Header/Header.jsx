@@ -1,19 +1,24 @@
 import React from "react";
 import styles from "./Header.module.scss";
 import logo from "../../assers/images/logo.png";
+import { Link } from "react-router-dom";
 
 export const Header = () => {
   return (
     <header className={styles.header}>
       <nav className={styles.nav}>
-        <img src={logo} alt="logo" />
+        <Link to="/" className={styles.nav_link}>
+          <div>
+          <img src={logo} alt="logo" />
+          </div>
+        </Link>
         <div className={styles.links}>
-        <div>
+        <Link to="/cyberpunk" className={styles.nav_link}>
           <a className={styles.link} href="">Cyberpunk 2077</a>
-        </div>
-        <div>
+        </Link>
+        <Link to="/phantom" className={styles.nav_link}>
           <a className={styles.link} href="">Phantom Vault</a>
-        </div>
+        </Link>
         <div>
           <a className={styles.link} href="">News</a>
         </div>
@@ -24,7 +29,6 @@ export const Header = () => {
           <a className={styles.link} href="">Buy now</a>
         </div>
         </div>
-
       </nav>
     </header>
   );

@@ -50,7 +50,7 @@ export const Main = () => {
           <div className={styles.main_btns}>
             <button>Learn more</button>
             <button>
-              <a
+              <a style={{textDecoration:"none", color:"#fcee0a"}}
                 className="link"
                 href="https://www.youtube.com/watch?v=LembwKDo1Dk"
                 target="_blank"
@@ -103,7 +103,10 @@ export const Main = () => {
               );
             })}
           </div>
+          <div className={styles.main_rosource_line}></div>
+
         </div>
+
       </div>
     </main>
   );
