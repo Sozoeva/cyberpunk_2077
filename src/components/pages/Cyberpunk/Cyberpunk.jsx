@@ -5,8 +5,15 @@ import styles from "./Cyberpunk.module.scss";
 export const Cyberpunk = () => {
   return (
     <div className={styles.cyberpunk}>
-      <img src={background} alt="" />
-      <div className={styles.cyberpunk_story}>
+      <div className={styles.cyberpunk_imgs}>
+      <img className={styles.cyberpunk_name}
+        src="https://www.cyberpunk.net/build/images/home8/logo-cp77-yellow-en@2x-a95c56ad.png"
+        alt=""
+      />
+      <img className={styles.cyberpunk_img_bgr} src={background} alt="" />
+     
+      </div>
+ <div className={styles.cyberpunk_story}>
         <div>
           <img
             src="https://cdn-l-cyberpunk.cdprojektred.com/cyberpunk2077/story/Cyberpunk2077_Just_around_the_corner_RGB@2x.jpg"
@@ -25,14 +32,15 @@ export const Cyberpunk = () => {
             their hands on.
           </p>
         </div>
-        
       </div>
       <div className={styles.cyberpunk_rewards}>
-      
         <div>
           <h3>MY REWARDS</h3>
           <p>
-          The My Rewards program offers players an exciting selection of in-game items as well as digital content to enjoy outside of the game. Sign up to claim exclusive apparel, comic books, soundtracks, and wallpapers!
+            The My Rewards program offers players an exciting selection of
+            in-game items as well as digital content to enjoy outside of the
+            game. Sign up to claim exclusive apparel, comic books, soundtracks,
+            and wallpapers!
           </p>
         </div>
         <div>

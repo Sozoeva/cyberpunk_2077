@@ -1,21 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import styles from "./Buy.module.scss";
-import axios from "axios";
+import { GlobalContext } from "../../context/GlobalContext";
+import { ProductLink } from "../ProductLink/ProductLink";
 
 export const Buy = () => {
-  const [products, setProducts] = useState([]);
-
-  const getProducts = async () => {
-    try {
-      const { data } = await axios.get(
-        `${process.env.REACT_APP_MAIN_URL}/products`
-      );
-      setProducts(data);
-      console.log(data);
-    } catch (error) {
-      console.error(error);
-    }
-  };
+  const { products, getProducts } = useContext(GlobalContext);
 
   useEffect(() => {
     getProducts();
@@ -27,13 +16,7 @@ export const Buy = () => {
       <div className={styles.products}>
         {products.map((product) => {
           return (
-            <div className={styles.product}>
-              <div key={product.id}>
-                <h3>{product.title}</h3>
-                <img src={product.img} alt="" />
-                <p>{product.price} $</p>
-              </div>
-            </div>
+            <ProductLink key={product.id} product={product} />
           );
         })}
       </div>
@@ -41,3 +24,5 @@ export const Buy = () => {
     </div>
   );
 };
+
+

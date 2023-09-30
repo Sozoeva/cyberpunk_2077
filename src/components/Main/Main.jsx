@@ -1,40 +1,15 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import styles from "./Main.module.scss";
 import video from "../../assers/video/cyberpunk2077.mp4";
-import axios from "axios";
 import { Link } from "react-router-dom";
+import { GlobalContext } from "../context/GlobalContext";
 
 export const Main = () => {
-  const [resource, setResource] = useState([]);
-  const [news, setNews] = useState([]);
-
-  const getResource = async () => {
-    try {
-      const { data } = await axios.get(
-        `${process.env.REACT_APP_MAIN_URL}/resource`
-      );
-
-      setResource(data);
-    } catch (error) {
-      console.error(error);
-    }
-  };
+  const { resource, getResource, news, getNews } = useContext(GlobalContext);
 
   useEffect(() => {
     getResource();
   }, []);
-
-  const getNews = async () => {
-    try {
-      const { data } = await axios.get(
-        `${process.env.REACT_APP_MAIN_URL}/news`
-      );
-
-      setNews(data);
-    } catch (error) {
-      console.error(error);
-    }
-  };
 
   useEffect(() => {
     getNews();
@@ -49,29 +24,25 @@ export const Main = () => {
         <section className={styles.main_title}>
           <h2>"Cyberpunk 2077" available now on all platforms</h2>
           <div className={styles.main_btns}>
-          
             <button>
-            <Link to='/cyberpunk' className={styles.nav_link}>
-              Learn more
-               </Link>
-              </button>
-           
-            <button>
+              <Link to="/cyberpunk" className={styles.nav_link}>
+                Learn more
+              </Link>
+            </button>
 
-            <a style={{textDecoration:"none", color:"#fcee0a"}}
+            <button>
+              <a
+                style={{ textDecoration: "none", color: "#fcee0a" }}
                 className="link"
                 href="https://www.youtube.com/watch?v=LembwKDo1Dk"
                 target="_blank"
               >
                 Watch trailer
               </a>
-      
-              
             </button>
           </div>
           <div className={styles.main_title_line}></div>
         </section>
-
 
         <section id="news" className={styles.main_news}>
           <div className={styles.main_news_now}>
@@ -114,9 +85,7 @@ export const Main = () => {
             })}
           </div>
           <div className={styles.main_rosource_line}></div>
-
         </div>
-
       </div>
     </main>
   );

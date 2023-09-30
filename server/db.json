@@ -52,40 +52,47 @@
 
     "products": [
         {
-            "id": 1,
-            "img": "https://i.pinimg.com/1200x/8e/49/04/8e4904ebd5e805db0f4ccaddee513b83.jpg",
-            "price": 29.99,
-            "title": "Cyberpunk City Poster"
-          },
-          {
-            "id": 2,
-            "img": "https://moveekbuddyshop.com/cdn/shop/products/hh_369781ec-cf97-4007-be58-83bd92e58165_1200x.png?v=1601283906",
-            "price": 49.99,
-            "title": "Cyberpunk Logo Hoodie"
-          },
-          {
-            "id": 3,
-            "img": "https://i.pinimg.com/1200x/8e/49/04/8e4904ebd5e805db0f4ccaddee513b83.jpg",
-            "price": 14.99,
-            "title": "Cyberpunk City Poster"
-          },
-          {
-            "id": 4,
-            "img": "https://ae01.alicdn.com/kf/S57277923d8ef43c8b90cdc44c6ff2a53p/Razer-Viper-Ultimate-Cyberpunk-2077-Mouse-Pad-RGB-Pc-Accessories-LED-Gaming-Mousepad-New-Desk-Mat.jpg",
-            "price": 39.99,
-            "title": "Cyberpunk RGB Mousepad"
-          },
-          {
-            "id": 5,
-            "img": "https://www.fragstore.cy/web/image/product.image/1304/image_1024/Cyberpunk%202077%20Logo%20Snap%20Back%20Cap%2C%20Black-Yellow?unique=ad441a9",
-            "price": 19.99,
-            "title": "Cyberpunk Logo Cap"
-          },
-          {
-            "id": 6,
-            "img": "https://ae04.alicdn.com/kf/S90183d5ba52244a296ccfee8e1677be8A.jpg",
-            "price": 9.99,
-            "title": "Cyberpunk RGB Mousepad"
-          }
-    ]
+          "id": 1,
+          "img": "https://i.pinimg.com/1200x/8e/49/04/8e4904ebd5e805db0f4ccaddee513b83.jpg",
+          "price": 29.99,
+          "title": "Cyberpunk City Poster",
+          "description": "Transform your interior with this stunning Cyberpunk City poster. It brings the cyberpunk atmosphere to your room with vivid colors and details, creating a unique ambiance."
+        },
+        {
+          "id": 2,
+          "img": "https://moveekbuddyshop.com/cdn/shop/products/hh_369781ec-cf97-4007-be58-83bd92e58165_1200x.png?v=1601283906",
+          "price": 49.99,
+          "title": "Cyberpunk Logo Hoodie",
+          "description": "Look stylish and modern with this fashionable Cyberpunk logo hoodie. It fits comfortably and is suitable for both everyday wear and gaming sessions."
+        },
+        {
+          "id": 3,
+          "img": "https://i.pinimg.com/1200x/8e/49/04/8e4904ebd5e805db0f4ccaddee513b83.jpg",
+          "price": 14.99,
+          "title": "Cyberpunk City Poster",
+          "description": "This amazing Cyberpunk City poster will bring the future's atmosphere to your home. It's an excellent choice for science fiction and cyberpunk enthusiasts."
+        },
+        {
+          "id": 4,
+          "img": "https://ae01.alicdn.com/kf/S57277923d8ef43c8b90cdc44c6ff2a53p/Razer-Viper-Ultimate-Cyberpunk-2077-Mouse-Pad-RGB-Pc-Accessories-LED-Gaming-Mousepad-New-Desk-Mat.jpg",
+          "price": 39.99,
+          "title": "Cyberpunk RGB Mousepad",
+          "description": "This RGB mousepad adds a stylish touch to your gaming setup. With RGB lighting and a comfortable surface, it's perfect for gamers."
+        },
+        {
+          "id": 5,
+          "img": "https://www.fragstore.cy/web/image/product.image/1304/image_1024/Cyberpunk%202077%20Logo%20Snap%20Back%20Cap%2C%20Black-Yellow?unique=ad441a9",
+          "price": 19.99,
+          "title": "Cyberpunk Logo Cap",
+          "description": "Add some brightness to your outfit with this Cyberpunk 2077 logo cap. With high-quality materials and a stylish design, it's a great addition to your wardrobe."
+        },
+        {
+          "id": 6,
+          "img": "https://ae04.alicdn.com/kf/S90183d5ba52244a296ccfee8e1677be8A.jpg",
+          "price": 9.99,
+          "title": "Cyberpunk RGB Mousepad",
+          "description": "Embrace the cyberpunk aesthetic with this RGB mousepad. It creates an impressive gaming atmosphere with its lighting and stylish design."
+        }
+      ]
+      
 }

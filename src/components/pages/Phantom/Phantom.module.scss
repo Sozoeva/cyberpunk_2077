@@ -1,48 +1,62 @@
 .phantom {
   position: relative;
 
-  .phantom_bgr {
-    width: 100%;
+  .phantom_imgs {
+    background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgb(0, 0, 0)
+    );
+
+    .phantom_bgr {
+      position: absolute;
+      width: 100%;
+      z-index: -10;
+    }
+
+    .phantom_name {
+      width: 50%;
+      margin: 30% 0 10% 25%;
+    }
+
+    .phantom_vi {
+      position: absolute;
+      width: 55.5%;
+      top: 0;
+      left: 20%;
+      z-index: -1;
+    }
   }
 
-  .phantom_vi {
-    position: absolute;
-    width: 55%;
-    top: 0;
-    right: 25%;
-  }
-
-//   .phantom_content {
-//     margin-top: -8px;
-//     padding: 3% 5%;
-//     background-color: black;
-//     display: flex;
-//     gap: 2%;
-//     align-items: center;
-
-//     img {
-//         width: 100%;
-//     }
-    
-//       h3 {
-//         font-size: 44px;
-//       }
-    
-//       p {
-//         font-size: 22px;
-//       }
-//   }
-
-  .phantom_person {
+  .phantom_mission {
     margin-top: -6px;
-    display: flex;
     width: 100%;
     padding: 0 10%;
-    background-color: #fc012a;
-    
-    img {
-      width: 40%;
-      margin: 0 -10%;
+    background-color: black;
+
+    h2 {
+      text-align: center;
+      font-size: 56px;
+    }
+
+    .phantom_about {
+      padding: 5% 0;
+      display: flex;
+      align-items: center;
+      gap: 5%;
+
+      h3 {
+        font-size: 44px;
+      }
+
+      p {
+        font-size: 22px;
+      }
+
+      img {
+        width: 100%;
+        border: 10px solid #fcee0a;
+      }
     }
   }
 }

@@ -1,8 +1,29 @@
 .cyberpunk {
-  img {
-    width: 100%;
-    height: 100%;
+position: relative;
+  .cyberpunk_imgs {
+    background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgb(0, 0, 0)
+    );
+
+
+.cyberpunk_name {
+  width: 30%;
+  margin: 20% 0 16% 35%;
+}
+
+    .cyberpunk_img_bgr {
+      position: absolute;
+      width: 100%;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
   }
+
+
+
 
   .cyberpunk_story {
     margin-top: -6px;
@@ -14,6 +35,10 @@
 
   
     img {
+
+        width: 100%;
+
+   
       border: 10px solid #fcee0a;
     }
   
@@ -39,6 +64,7 @@
 
     }
     img {
+      width: 100%;
         border: 10px solid black;
       }
 

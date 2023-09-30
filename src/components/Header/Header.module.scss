@@ -31,12 +31,38 @@
       border-radius: 20px 0 20px 0;
     }
 
+    @media screen and (max-width: 1200px) {
+      .links {
+        width: 90%;
+        justify-content: center;
+      }
+    }
+
+    @media screen and (max-width: 820px) {
+      .links {
+        width: 150%;
+        justify-content: center;
+      }
+    }
+
     .link {
       padding: 10px 20px;
       font-size: 18px;
       text-decoration: none;
       text-transform: uppercase;
       transition: 0.3s;
+    }
+
+    @media screen and (max-width: 1200px) {
+      .link {
+        font-size: 16px;
+      }
+    }
+
+    @media screen and (max-width: 980px) {
+      .link {
+        font-size: 12px;
+      }
     }
 
     .link:hover {
